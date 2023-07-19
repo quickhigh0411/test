@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <img id="bz" src=""/>
+    <script>
+        //定义一个数组
+        var wallpapers = ['./6.jpg', './7.jpg', './8.jpg', './9.jpg', './10.jpg', './5.jpg', './4.jpg'];
+        //随机从数组中获取一个值
+        var element = wallpapers[Math.floor((Math.random() * wallpapers.length))];
+        var image = document.getElementById('bz'); 
+        image.src = element; 
+        console.log(element)
+    </script>
+</body>
+</html>
